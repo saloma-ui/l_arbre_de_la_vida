@@ -467,3 +467,25 @@ footer {
   object-fit: cover;
   display: block;
 }
+.chapter-image {
+  margin: 1.8rem 0;
+  background: #fffdf8;
+  border: 1px solid var(--line);
+  border-radius: 20px;
+  overflow: hidden;
+  box-shadow: 0 10px 28px rgba(60, 48, 34, 0.10);
+}
+
+.chapter-image img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.chapter-image figcaption {
+  padding: 0.85rem 1rem;
+  font-size: 0.92rem;
+  color: var(--muted);
+  background: #faf6ed;
+  border-top: 1px solid var(--line);
+}
